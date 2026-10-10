@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <h1 class="type">Hi, I'm Sthapana Rai</h1>
+  <p class="tagline"><span class="a w">Designer</span> <span class="a">✦</span> <span class="a w">Motion Designer</span> <span class="a">✦</span> <span class="a w">Creative Explorer</span></p>
+
+  <!-- Both halves are exactly 6 squares tall. Squares: --x = column, --y = row (class "rt" counts from the right edge) -->
+  <div class="hero-card">
+    <div class="hero-top">
+      <i class="px c" style="--x:1;--y:0"></i>
+      <i class="px c" style="--x:0;--y:1"></i>
+      <i class="px c" style="--x:1;--y:2"></i>
+      <i class="px c rt" style="--x:0;--y:3"></i>
+      <i class="px c rt" style="--x:1;--y:4"></i>
+      <i class="px c rt" style="--x:0;--y:5"></i>
+      <div class="ph hero-img"><img src="images/me.png" alt="Me"></div>
+    </div>
+    <!-- Background image: see .hero-bottom in style.css -->
+    <div class="hero-bottom">
+      <i class="px" style="--x:0;--y:3"></i>
+      <i class="px" style="--x:1;--y:4"></i>
+      <i class="px" style="--x:0;--y:5"></i>
+      <i class="px rt" style="--x:0;--y:2"></i>
+      <i class="px rt" style="--x:1;--y:3"></i>
+      <i class="px rt" style="--x:0;--y:4"></i>
+      <div class="ph hero-logo"><img src="images/meagain.png" alt="Me"></div>
+      <span class="bg-label"></span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="section center" id="about">
+  <h2 class="type">About Me</h2>
+  <p>I'm a 21 year old BCA student and a creative designer with a strong interest in visual storytelling. I've been working with graphic design and digital content, and I'm currently expanding my skills into motion graphics and video.</p>
+  <p>I enjoy taking an idea and turning it into something people can see, feel, and connect with.</p>
+
+</section>
+
+<section class="section center" id="what">
+  <h2 class="type">What do I do?</h2>
+  <div class="folder small">
+    <div class="folder-front">
+      <span class="folder-tab">✦ What I bring ✦</span>
+      <ul class="bring">
+        <li style="--n:0"><span class="a">✦</span> <span class="w">Graphic Design</span> <span class="a">✦</span></li>
+        <li style="--n:1"><span class="a">✦</span> <span class="w">Carousels</span> <span class="a">✦</span></li>
+        <li style="--n:2"><span class="a">✦</span> <span class="w">Branding</span> <span class="a">✦</span></li>
+        <li style="--n:3"><span class="a">✦</span> <span class="w">Youtube Thumbnails</span> <span class="a">✦</span></li>
+        <li style="--n:4"><span class="a">✦</span> <span class="w">Art &amp; Illustration</span> <span class="a">✦</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MY WORK ============ -->
+<!-- data-desc = the text shown on hover. Write your own description for each box. -->
+<section class="section center" id="work">
+  <h2 class="type">My Work</h2>
+
+  <!-- Graphic Design -->
+  <div class="folder">
+    <div class="folder-front">
+      <span class="folder-tab">✦ Graphic Design ✦</span>
+      <div class="grid g-gd">
+        <div class="ph r-sq" data-desc="I created a poster that makes the drink menu the star."><img src="images/work1.png" alt="Graphic design work 1"></div>
+        <div class="ph r-sq" data-desc="A poster built around the excitement of travel."><img src="images/work2.png" alt="Graphic design work 2"></div>
+        <div class="ph r-sq" data-desc="A warm, appetizing poster that highlights the menu."><img src="images/work3.png" alt="Graphic design work 3"></div>
+        <div class="ph r-sq" data-desc="A high-energy poster meant to motivate people to "><img src="images/work4.png" alt="Graphic design work 4"></div>
+        <div class="ph r-sq" data-desc="A product-focused poster that shows off the machine’s key features."><img src="images/work5.png" alt="Graphic design work 5"></div>
+        <div class="ph r-sq" data-desc="A clean and reassuring poster for a medical setting."><img src="images/work6.png" alt="Graphic design work 6"></div>
+        <div class="ph r-story" data-desc="A story design that makes the ramen look irresistible, with steam, rich broth, and toppings in focus."><img src="images/work7.png" alt="Story poster 1"></div>
+        <div class="ph r-story" data-desc="A festive story design celebrating Tihar with warm festive colors."><img src="images/work8.png" alt="Story poster 2"></div>
+        <div class="ph r-story" data-desc="A story design showcasing a spread of dishes in a clean, eye-catching arrangement."><img src="images/work9.png" alt="Story poster 3"></div>
+        <div class="ph r-story" data-desc="A fun, colorful story design that captures the cool, sweet feel of ice cream."><img src="images/work10.png" alt="Story poster 4"></div>
+        <div class="ph r-story" data-desc="A story design that displays desserts in a soft, cozy style."><img src="images/work11.png" alt="Story poster 5"></div>
+       
+      </div>
+      <p class="folder-note">"A few of my works"</p>
+    </div>
+  </div>
+
+  <!-- Carousels -->
+  <div class="folder">
+    <div class="folder-front">
+      <span class="folder-tab">✦ Carousels ✦</span>
+      <div class="grid g-2 g-car">
+        <div class="ph r-wide" data-desc="A carousel that takes viewers from the farm to the table. Fresh, vibrant produce photography that highlights the quality and freshness of vegetables."><img src="images/work13.png" alt="Carousel 1"></div>
+        <div class="ph r-wide" data-desc="A carousel where each slide covers helpful tips with clean visuals and bold headlines."><img src="images/work14.png" alt="Carousel 2"></div>
+        <div class="ph r-wide" data-desc="A soft, polished carousel that walks through the product’s visuals with brand colors, and close-up product shots."><img src="images/work15.png" alt="Carousel 3"></div>
+        <div class="ph r-wide" data-desc="A carousel which entrusts topnotch services, and reliability with a bold industrial palette, and clear information present the company as professional and dependable."><img src="images/work16.png" alt="Carousel 4"></div>
+        <div class="ph r-wide" data-desc="A high-energy gym carousel that lays out facilities, and the benefits of joining. Dynamic visuals and punchy text that attracts people to sign up."><img src="images/work17.png" alt="Carousel 5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Branding -->
+  <div class="folder">
+    <div class="folder-front">
+      <span class="folder-tab">✦ Branding ✦</span>
+      <div class="grid g-1">
+        <div class="ph" data-desc="I create logos and brand identities that fit your business. Each design starts with understanding your story, audience, and goals, then turns them into a clear, professional look. You get a logo, color palette, typography, and brand guidelines so your brand stays consistent everywhere.">
+          <img src="images/work18.png" alt="Branding">
+          <img class="sticker tr" src="images/sticker1.png" alt="">
+          <img class="sticker bl" src="images/sticker2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Art & Illustration -->
+  <div class="folder">
+    <div class="folder-front">
+      <span class="folder-tab">✦ Ytube Thumbnail ✦</span>
+<div class="grid g-3">
+  <div class="ph r-tall" data-desc="A professional thumbnail designed to grab attention."><img src="images/thumb1.png" alt="Thumbnail 1"></div>
+  <div class="ph r-tall" data-desc="A thumbnail designed to spark curiosity about the products worth."><img src="images/thumb2.png" alt="Thumbnail 2"></div>
+  <div class="ph r-tall" data-desc="A thumbnail designed to represent the podcast's vibe and seriousness."><img src="images/thumb3.png" alt="Thumbnail 3"></div>
+  <div class="ph r-tall" data-desc="A thumbnail designed to look appetizing and spark curiosity."><img src="images/thumb4.png" alt="Thumbnail 4"></div>
+  <div class="ph r-tall" data-desc="A thumbnail designed to feel dramatic, showing the scale of the build at a glance."><img src="images/thumb5.png" alt="Thumbnail 5"></div>
+  <div class="ph r-tall" data-desc="A thumbnail designed to feel clear and beginner-friendly tutorial. "><img src="images/thumb6.png" alt="Thumbnail 6"></div>
+    </div>
+  </div>
+</section><br>
+
+<!-- ============ SKILLS ============ -->
+<section class="section center" id="skills">
+  <h2 class="type">My Skills</h2>
+  <div class="folder small">
+    <div class="folder-front">
+      <span class="folder-tab">✦ Tools I Use ✦</span>
+      <div class="tools">
+        <figure><div class="ph square"><img src="images/photoshop.png" alt="Photoshop"></div><figcaption>Photoshop</figcaption></figure>
+        <figure><div class="ph square"><img src="images/aftereffects.png" alt="After Effects"></div><figcaption>After Effects</figcaption></figure>
+        <figure><div class="ph square"><img src="images/illustrator1.png" alt="Illustrator"></div><figcaption>Illustrator</figcaption></figure>
+        <figure><div class="ph square"><img src="images/blender.png" alt="Blender"></div><figcaption>Blender</figcaption></figure>
+        <figure><div class="ph square"><img src="images/figma.png" alt="Figma"></div><figcaption>Figma</figcaption></figure>
+      </div>
+    </div>
+  </div><br>
+
+  
+</section>
+
+<!-- ============ CONTACT ============ -->
+<footer class="footer-wrap" id="contact">
+  <div class="section center footer">
+    <h3>✦ More Stories Ahead ✦</h3>
+    <p><a href="mailto:stharai333@gmail.com">stharai333@gmail.com</a></p>
+    <p>+977 9862417874</p>
+    <p><a href="https://instagram.com/sthavie_rai" target="_blank" rel="noopener">@sthavie_rai</a></p>
+  </div>
+  <!-- corner squares sit at the page edges: --x = column, --y = row up from bottom -->
+  <i class="fpx" style="--x:0;--y:0"></i>
+  <i class="fpx" style="--x:2;--y:0"></i>
+  <i class="fpx" style="--x:1;--y:1"></i>
+  <i class="fpx" style="--x:3;--y:1"></i>
+  <i class="fpx rt" style="--x:0;--y:0"></i>
+  <i class="fpx rt" style="--x:2;--y:0"></i>
+  <i class="fpx rt" style="--x:1;--y:1"></i>
+  <i class="fpx rt" style="--x:0;--y:2"></i>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
