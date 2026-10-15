@@ -284,3 +284,4 @@ a:hover { text-decoration: underline; }
 .g-gd > .r-story:nth-last-child(-n+2) { translate: calc(var(--W) * .138) 0; }
 .tools figure:nth-child(4) .ph { width: 90%; margin: 10% auto; }
 .tools figure:nth-child(4) .ph img { object-fit: contain; }
+.g-mo { margin-bottom: 0; }
