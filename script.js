@@ -104,7 +104,7 @@ riseItems.forEach(el => riseIO.observe(el));
 
 // hover overlay with the description (not on the tool icons)
 document.querySelectorAll('.g-gd > *, .g-2 > *, .g-1 > *, .g-3 > *').forEach(el => {
-  if (el.tagName === 'IMG' || el.tagName === 'VIDEO') return;
+ if (el.tagName === 'IMG' || el.tagName === 'VIDEO' || el.classList.contains('bonus-text')) return;
   const h = document.createElement('div');
   h.className = 'hov';
   h.textContent = el.dataset.desc || 'Description goes here';
