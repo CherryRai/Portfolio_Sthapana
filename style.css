@@ -313,7 +313,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin: 0 0 .6rem;
 }
 .follow-ig img {
